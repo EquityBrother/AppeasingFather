@@ -21,4 +21,4 @@ total_cost = book_cost + shipping_cost
 if total_cost == 0:
     print("Not ordering anything?")
 else:
-    print(f"${total_cost:.2f}")
+    print(f"${total_cost:,.2f}")
